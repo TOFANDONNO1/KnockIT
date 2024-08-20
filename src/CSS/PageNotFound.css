@@ -1,0 +1,28 @@
+.PageNot_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #5ca3dd93;
+}
+.PageNot_container h2{
+    font-size: 150px;
+    margin: 0;
+    text-shadow: 15px 5px 2px black;
+}
+.PageNot_container h3{
+    font-size: 40px;
+    margin: 20px;
+}
+.PageNot_container p{
+    font-size: 18px;
+    margin: 5px;
+}
+
+.PageNot_container p:last-of-type{
+    margin-bottom: 35px;
+}
+.PageNot_container a{
+    text-decoration: none;
+    
+}

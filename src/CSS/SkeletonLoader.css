@@ -1,0 +1,72 @@
+/* SkeletonLoader.css */
+.skeleton-container {
+  width: 98%;
+  margin: auto;
+  margin-top: 2%;
+  padding: 16px;
+  border-radius: 10px;
+
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+ .skeleton-container>h1{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+text-align: left;
+width: 20%;
+/* display: block; */
+}
+.skeleton-grid {
+  display: grid;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  grid-template-columns: repeat(4, 1fr); /* Define your grid template here */
+  gap: 16px; /* Adjust the gap between grid items */
+}
+
+.skeleton-item {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* background-color: #e0e0e0; Set the background color for the skeleton items */
+  height: 200px; /* Set the height of each grid item */
+  border-radius: 10px; /* Add some border radius for a rounded appearance */
+}
+@media (max-width: 1200px) {
+  .skeleton-grid{
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      }
+}
+@media (max-width: 998px) {
+  .skeleton-grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  }
+  .skeleton-grid img{
+      height: 100px;
+  }
+}
+@media (max-width: 798px) {
+.skeleton-grid{
+grid-template-columns: repeat(3,1fr);
+
+}
+  .skeleton-grid img{
+      height: 70px;
+  }
+  .subcategorypageslider>div>img{
+      height: 100px;
+  }
+}
+@media (max-width: 520px) {
+  .skeleton-grid{
+      grid-template-columns: repeat(2,1fr);
+  
+  }
+  .skeleton-item {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* background-color: #e0e0e0; Set the background color for the skeleton items */
+    height: 180px; /* Set the height of each grid item */
+    border-radius: 10px; /* Add some border radius for a rounded appearance */
+  }
+  .subcategorypageslider>div>img{
+      height: 70px;
+  }
+}

@@ -1,0 +1,118 @@
+.main_sub_store_skeleton{
+    display: flex;
+}
+.honee_skeleton{
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    /* width: 50%; */
+    margin: auto;
+    margin-top:2%;
+    border-radius: 10px;
+    /* height: 350px; */
+   
+/* color: #537E2C; */
+    /* border: 1px solid #537E2C; */
+
+
+}
+.hone{
+    position: relative;
+}
+/* .honee_skeleton:hover{
+    border: 1px solid #537E2C;
+} */
+.honee_skeleton>h1{
+    margin: 1%; 
+ text-decoration: solid;
+ /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    /* text-align: left; */
+    /* padding-top: 000.1%; */
+
+}
+
+.htwo_skeleton {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    /* height: 290px; */
+}
+.htwo_skeleton>div:hover{
+    cursor: pointer;
+  /* transform: scale(1); */
+  /* border: 2px solid #537E2C;; */
+  
+}
+
+.htwo_skeleton>div{
+    margin: 0.5%;
+    align-items: center;
+    /* padding: 2%; */
+    /* border: 0.01px dotted rgb(165, 169, 155); ; */
+    /* background-color: #537E2C; */
+
+    border-radius: 200px;
+}
+.htwo_skeleton div{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+
+}
+.store_details_home_skeleton{
+    /* height: 100px; */
+    width: 50%;
+    /* margin-left: 50%; */
+    /* margin: auto; */
+    /* background-color: rebeccapurple; */
+}
+.honee_skeleton h2{
+    font-size: large;
+   }
+.htwo_skeleton h4{
+    font-size: small;
+ }
+
+@media (max-width: 1080px) {
+
+  
+    .htwo_skeleton div{
+        width: 200px;
+        height: 200px;
+    }
+    
+    
+}
+    @media (max-width: 998px) {
+       
+        .htwo_skeleton div{
+            width: 150px;
+            height: 150px;
+        }
+        
+    }
+    @media (max-width: 798px) {
+        
+        
+    }
+    @media (max-width: 520px) {
+        .main_sub_store_skeleton{
+            display: grid;
+        }
+        .main_sub_store_skeleton>div{
+            width: 100%;
+        }
+        .honee_skeleton h2{
+        font-size: x-small;
+       }
+        .htwo_skeleton div{
+            /* width: 80px;
+            height: 80px; */
+            max-width: 80px;
+            max-height: 80px;
+        }
+         .htwo_skeleton h4{
+            font-size: 5px;
+         }
+    } 
+    

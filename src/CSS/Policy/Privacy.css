@@ -1,0 +1,27 @@
+.privacy_policy{
+    width: 90%;
+    margin: auto;
+    display: grid;
+text-align: left;
+padding: 2%;
+border: 1px dotted ;
+}
+.privacy_policy div{
+    display: flex;
+}
+.privacy_policy div div{
+    display: grid;
+}
+.privacy_policy h1{
+
+}
+.privacy_policy p{
+    border-bottom: 1px dotted;
+}
+
+@media (max-width: 520px) {
+   
+.privacy_policy{
+    width: 100%;
+}
+}

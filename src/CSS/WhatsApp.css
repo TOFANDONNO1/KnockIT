@@ -1,0 +1,27 @@
+.whatsapp-button {
+    position: fixed;
+    top: 60%;
+    right: 2%;
+
+/* WhatsApp green color */
+   
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 9999;
+  }
+  .top-react-icons-whatapp{
+    font-size: 3rem;
+    background-color: rgb(97, 136, 61); 
+  border-radius: 100%;
+  }
+    @media (max-width: 520px) {
+      
+        .top-react-icons-whatapp{
+            font-size: 2rem;
+            background-color: rgb(97, 136, 61); 
+
+          border-radius: 40%;
+          }
+    }

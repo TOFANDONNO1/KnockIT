@@ -1,0 +1,114 @@
+.Firstnavbar_main{
+height: 120px;
+ display: flex;
+width: 90%;
+margin:1% auto;
+box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 22;
+    /* Additional styles for your navbar */
+    background-color: #fff; /* Replace with your desired background color */
+    /* ... Other styles */
+    /* border:1px solid red; */
+  
+  
+/* border: 1px solid red; */
+}
+.Firstnavbar_one{
+    width: 20%;
+    /* border:1px solid red; */
+    
+}
+.Firstnavbar_one img{
+    max-width: 100%;
+    height:100%;
+}
+.Firstnavbar_two{
+    width: 65%;
+    margin-bottom: 2%;
+    /* border:1px solid red; */
+   margin: auto;
+   
+}
+.Firstnavbar_two div:first-child{
+    display: flex;
+    justify-content: center;
+   
+ 
+}
+.nav_link{
+  border-right:0.1px solid #048ED5 ;
+ /* margin:0 10px; */
+ padding:0 10px;
+ /* background-color: red; */
+ 
+}
+.nav_link:hover{
+    border-radius:5px 20px;
+}
+.Firstnavbar_three{
+    /* margin-top: 2%; */
+    margin: auto;
+    /* border:1px solid red; */
+
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    align-items: center;
+}
+.top-react-icons-cart{
+    font-size: 3rem;
+    /* background-color: rgb(19, 19, 19); */
+    /* border-radius: 50%; */
+  }
+ .username{
+  
+        content: attr(data-text);
+    overflow: hidden;
+        display: inline-block;
+        max-width: 7ch;
+        white-space: nowrap;
+        text-overflow: ""; 
+        margin:auto
+                  
+ }
+@media (max-width: 520px) {
+    .Firstnavbar_main{
+        height: 55px;
+            display: flex;
+        width: 90%;
+        margin: auto;
+        /* border: 1px solid red; */
+        }
+    .Firstnavbar_one{
+        margin: auto;
+      
+    }
+    .Firstnavbar_one img{
+        max-width: 100%;
+       
+    }
+    .top-react-icons-cart{
+        font-size: 1rem;
+        /* background-color: rgb(19, 19, 19); */
+        /* border-radius: 50%; */
+      }
+    .nav_link{
+        font-size: 0.5rem;
+        border-right:0.1px solid #048ED5 ;
+        /* margin:0 10px; */
+        
+        padding:0 10px;
+      }
+      .Firstnavbar_three h4{
+        font-size: 0.5rem;
+
+      }
+ .username{
+font-size: xx-small; 
+}
+}

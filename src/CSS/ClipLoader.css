@@ -1,0 +1,35 @@
+/* styles.css */
+.clip-loader {
+    display: inline-block; /* Adjust the display property as needed */
+    position: relative;
+    width: 250px; /* Set the desired width */
+    height: 250px; /* Set the desired height */
+    background-color: transparent;
+  }
+  
+  .clip-loader div {
+    position: absolute;
+    width: 50px; /* Set the width of the bars */
+    height: 70px; /* Set the height of the bars */
+    background-color: #36d7b7; /* Set the desired color */
+    animation: clip-loader-animation 1.2s infinite linear; /* Customize the animation */
+  }
+  
+  @keyframes clip-loader-animation {
+    0% {
+      top: 10px;
+    }
+    25% {
+      top: 5px;
+    }
+    50% {
+      top: 10px;
+    }
+    75% {
+      top: 15px;
+    }
+    100% {
+      top: 10px;
+    }
+  }
+  

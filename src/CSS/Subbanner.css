@@ -1,0 +1,26 @@
+.subbanner_main{
+    /* display: flex; */
+    width: 90%;
+    margin:1% auto ;
+    /* border: 1px solid red; */
+    /* justify-content: space-between; */
+}
+.subbanner_one{
+    width: 98%;
+    border-radius: 20px;
+    overflow: hidden;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    /* border: 1px solid red; */
+    cursor: pointer;
+
+}
+.subbanner_one img{
+    max-width: 100%;
+    height: 200px;
+}
+@media (max-width: 520px) {
+    .subbanner_one img{
+        max-width: 100%;
+        height: 100px;
+    }  
+}

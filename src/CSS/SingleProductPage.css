@@ -1,0 +1,305 @@
+.SingleProductPageone {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  /* justify-content: center; */
+  text-align: left;
+  padding:0 2%;
+  width: 90%;
+  margin: auto;
+  /* background-color: #048ED5  ; */
+  border: 0.1px dotted #048ED5 ;
+  border-radius: 20px;
+  color: rgb(0, 0, 0)  ;
+}
+.s
+.SingleProductPageone > div {
+  /* border: 1px solid gold; */
+  font-size: 9px;
+  color: #048ED5  ;
+}
+.ratingandkg h4 {
+
+  border-bottom: 1px dotted #048ED5;
+  /* background-color: #048ED5  ; */
+  color: #048ED5;
+}
+.ratingandkg h3{
+  background-color:gold;
+}
+.ratingstyle h4:first-child {
+  background-color: #048ED5;
+  padding: 0 1%;
+  border-radius: 10px;
+  color: white;
+  /* border: 2px solid red; */
+  /* text-align: left; */
+  /* align-items: flex-start; */
+}
+.ratingandkg div:first-child {
+  /* border: 2px solid rebeccapurple; */
+  /* background-color: blueviolet; */
+  color: rgb(0, 0, 0);
+  padding: 0.1%;
+}
+.ratingandkg div:last-child {
+  display: flex;
+  /* justify-content: center; */
+}
+.ratingandkg div:last-child h4 {
+  /* border: 2px solid blueviolet; */
+  margin: 0.3%;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 0.5%;
+  /* background-color: rgb(255, 2, 2); */
+  border: 1px dotted #048ED5;
+
+}
+.ratingandkg div:last-child h4:hover {
+  background-color: #048ED5  ;
+
+  color: white;
+  padding: 0.6%;
+
+}
+.singleProductPageSpecification {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.singleProductPageSpecification > div {
+  /* border: 1px solid rgb(193, 118, 118); */
+  display: flex;
+}
+.singleProductPageSpecification > div:first-child {
+  border-bottom:1px dotted #048ED5;
+  
+
+  color: #048ED5;
+}
+.singleProductPageSpecification > div div {
+  /* border: 2px solid rgb(92, 45, 45); */
+  margin: 0.1%;
+  padding: 0.1%;
+  /* display: flex; */
+}
+.singleProductPageSpecification > div div > h4:first-child {
+  border:1px dotted #048ED5;
+  
+
+  color: rgb(0, 0, 0);
+  margin: 0.2% 0;
+}
+.SingleProductPageDescription h4:first-child {
+ border-bottom:1px dotted #048ED5;
+
+  color: #048ED5;
+}
+
+.SingleProductPageRatingBar {
+  margin: 0.2% 0;
+}
+.SingleProductPageRatingBar > h4:first-child {
+  border-bottom:1px dotted #048ED5;
+
+  color: rgb(7, 7, 7);
+}
+
+.SingleProductPageRatingBar > div {
+  display: flex;
+  /* border: 1px solid red; */
+  margin: 0.1% 0;
+}
+
+.SingleProductPageRatingBar > div > h4:first-child {
+  background-color: #048ED5;
+  padding: 0 0.1%;
+  border-radius: 10px;
+  color: white;
+}
+/* .SingleProductPageRatingBar>div>div{
+border: 1px solid red;
+    width: 100%;
+} */
+.SingleProductPageRatingBar div:last-child {
+  /* background-color: yellow; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* border: 1px solid red; */
+  width: 100%;
+}
+.SingleProductPageRatingBar div:last-child h4:nth-child(2),
+h4:nth-child(4),
+h4:nth-child(6),
+h4:nth-child(8),
+h4:nth-child(10) {
+  /* border: 2px solid black; */
+  display: flex;
+  /* width: 150%; */
+  /* border: 1px solid red; */
+
+  padding: 0.1%;
+}
+.SingleProductPageRatingBar div:last-child h4:nth-child(12) {
+  /* border: 2px solid black; */
+  /* display: flex; */
+  text-align: right;
+
+  display: inline;
+  /* align-items: flex-end; */
+}
+.SingleProductPageReviews {
+  margin: 0.01% 0;
+}
+.SingleProductPageReviews  h4 {
+  border-bottom:1px dotted #048ED5;
+
+  color: rgb(2, 2, 2);
+
+  display: grid;
+}
+.SingleProductPageReviews h3 {
+  /* display: grid; */
+  /* background-color: rgb(201, 190, 211); */
+  /* margin: 0.2% 0; */
+  /* border:1px dotted #048ED5; */
+/* width: 50%; */
+  color: rgb(8, 8, 8);
+ 
+  /* left: 0%; */
+  /* padding: 0.1%; */
+  /* border: 2px solid goldenrod; */
+
+  /* grid-template-columns: repeat(2,1fr); */
+}
+
+.SingleReviewsData {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  /* margin: 20px; */
+  /* padding: 20px; */
+  margin: 1% 0;
+  /* border: 1px solid #e1e1e1; */
+  border-radius: 8px;
+  /* box-shadow: 0 2px 4px #048ED5; */
+  /* max-width: 300px; */
+}
+
+.SingleReviewsData img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin:0 0 ;
+}
+
+.SingleReviewsData h6 {
+  font-size: 1.5rem;
+  margin: 0% 0.5%;
+}
+
+.SingleReviewsData h4 {
+  font-size: 1rem;
+  color: #0e0d0d;
+  margin: 0.1% 0.1% 1% 1%;
+}
+
+/* Responsive design for small screens */
+
+
+.SingleProductPageADDTOCARTBTN {
+  padding: 1%;
+  border: 0px;
+  border-radius: 20px;
+  color: white;
+  text-decoration: solid;
+}
+
+.SingleProductPageADDTOCARTBTN:hover {
+  padding: 0.9%;
+}
+.whichlistimage {
+border-radius: 100%;
+  box-shadow: rgba(82, 182, 51, 0.25) 0px 54px 55px, rgba(190, 55, 55, 0.12) 0px -12px 30px, rgba(212, 31, 161, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(185, 53, 53, 0.09) 0px -3px 5px;
+}
+.kgset_productpage h3{
+
+  border: 1px solid #048ED5;
+
+  text-align: center;
+}
+.kgset_productpage h3:hover{
+  background-color: #048ED5;
+  cursor: pointer;
+  color: white;
+}
+/* Styling the select element */
+.kgset_productpage select {
+  padding: 8px; /* Adjust padding to your preference */
+  font-size: 16px; /* Adjust font size to your preference */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Styling the options within the select */
+.kgset_productpage option {
+  padding: 8px; /* Adjust padding to your preference */
+  font-size: 16px; /* Adjust font size to your preference */
+  background-color: white; /* Background color of options */
+  color: #333; /* Text color */
+}
+
+/* Styling the selected option */
+.kgset_productpage option:checked {
+  background-color: #f0f0f0; /* Background color of the selected option */
+}
+.SingleProductPageADD_ADDTOCARTBTN{
+  font-size: smaller;
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+}
+@media (max-width: 520px) {
+  .kgset_productpage h3{
+font-size: xx-small;
+    border: 1px solid #048ED5;
+  
+    text-align: center;
+  }
+  .kgset_productpage h3:hover{
+    background-color: #048ED5;
+    cursor: pointer;
+    color: white;
+  }
+  /* Styling the select element */
+  .kgset_productpage select {
+    padding: 0px; /* Adjust padding to your preference */
+    font-size: xx-small; /* Adjust font size to your preference */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  /* Styling the options within the select */
+  .kgset_productpage option {
+    padding: 8px; /* Adjust padding to your preference */
+    font-size: 16px; /* Adjust font size to your preference */
+    background-color: white; /* Background color of options */
+    color: #333; /* Text color */
+  }
+  
+  /* Styling the selected option */
+  .kgset_productpage option:checked {
+    background-color: #f0f0f0; /* Background color of the selected option */
+  }
+  .SingleProductPageADD_ADDTOCARTBTN{
+    font-size: smaller;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+  }
+}

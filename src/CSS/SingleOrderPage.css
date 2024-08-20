@@ -1,0 +1,95 @@
+
+.singleOrderpage_container{
+  
+margin-top: 2%;
+  /* background-color: remabeccapurple; */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.price-line {
+     /* Adjust the style as needed */
+    margin: 8px 0; /* Add spacing above and below the line */
+    display: inline-block;
+background-color: #048ED5;
+color: white;
+}
+  
+  .price-line span {
+    background-color: #048ED5    ; /* This will hide the line behind the text */
+    padding: 0 10px; /* Add some padding to the text for spacing */
+  }
+
+
+.singleOrderPage-main>div{
+  /* border: 5px dotted #048ED5 */
+
+}
+
+/* SingleOrderPage.css */
+.singleOrderPage-main {
+    text-align: left;
+    margin-top: 20px;
+ 
+  }
+  
+  .singleOrderPage-main h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .singleOrderPage-main h1:first-child {
+    margin-top: 10px;
+    border-bottom: 1px dotted #048ED5
+
+  }
+  
+  .singleOrderPage-main h4 {
+    font-size: 16px;
+  }
+  
+  .singleOrderPage-main img {
+    max-height: 200px; /* Adjust image height as needed */
+    margin-top: 10px;
+  }
+  .price-details{
+    text-align: left;
+    width: 40%;
+    /* border: 1px dotted #048ED5 */
+    ;
+  }
+  .price-details h3 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .price-details h2 {
+    font-size: 18px;
+  }
+  
+  .price-line {
+    /* text-decoration: line-through; */
+  }
+  
+  /* Add responsive styles for small screens */
+  @media (max-width: 576px) {
+    
+    .singleOrderPage-main h1 {
+      font-size: 10px;
+    }
+  
+    .singleOrderPage-main h4 {
+      font-size: 10px;
+    }
+  
+    .singleOrderPage-main img {
+      max-height: 150px;
+    }
+  
+    .price-details h3 {
+      font-size: 10px;
+    }
+  
+    .price-details h2 {
+      font-size: 10px;
+    }
+  }
+  

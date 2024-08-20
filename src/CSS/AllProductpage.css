@@ -1,0 +1,145 @@
+.allproductpage_main{
+  width: 90%;
+  margin: auto;
+}
+.allproductfilter{
+ 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headingallproduct{
+    display: flex;
+    width: 100%;
+    /* background-color: gainsboro; */
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 1%;
+    justify-content: center;
+}
+.headingallproduct h2{
+    width: 40%;
+    margin-right: 20%;
+}
+/* @media (max-width: 520px) {
+.allproductfilter{
+    width: 10%;
+}
+} */
+.dropbtn {
+  background-color: #048ED5;
+
+    color: white;
+    margin-top: 4%;
+    /* padding: 16px; */
+    /* font-size: 16px; */
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+  }
+  .dropdown Button:hover{
+    background-color: white;
+    color: black;
+    z-index: 9999;
+  }
+  .dropdown Button{
+    background-color: #048ED5;
+
+    border: none;
+  }
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    /* background-color: #f9f9f9; */
+    margin-top: 11%;
+    left: -100%;
+
+    /* min-width: 160px; */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #048ED5;
+
+  }
+  .dropdown-content Button{
+    margin-top: 5%;
+  }
+  .dropdown-content Button:hover{
+    margin-top: 5%;
+    background-color: white;
+    color: black;
+  }
+  .All_pmain{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    align-items: center;
+  }
+  .All_pmain>div{
+    height: 100%;
+}
+  @media (max-width: 520px) {
+    .All_pmain{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+    }
+    .headingallproduct{
+      /* margin: auto; */
+    }
+    .headingallproduct h2{
+      font-size: smaller;
+      margin: auto;
+    }
+    .dropdown{
+      /* height: 30px; */
+      font-size: smaller;
+      /* text-align: center; */
+      /* margin: auto; */
+    }
+    .dropdown>button{
+      /* margin: auto; */
+      /* text-align: center; */
+      /* font-size: small; */
+    }
+    .dropdown-content {
+      /* display: none; */
+      /* position: absolute; */
+      /* background-color: #f9f9f9; */
+      /* margin-top: 11%; */
+      left: -250%;
+  
+      /* min-width: 160px; */
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    .dropdown-content Button{
+      background-color: red;
+    }
+  }

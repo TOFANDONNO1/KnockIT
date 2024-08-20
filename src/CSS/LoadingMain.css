@@ -1,0 +1,29 @@
+.LoadingMain_center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background-color: #f0f0f0; */
+}
+
+.LoadingMain_center>div:nth-child(1) img {
+  max-width: 20%; /* Ensure the logo image doesn't exceed its container width */
+  height: auto;
+  /* background-color: red; */
+}
+
+.LoadingMain_center>div:last-child img {
+    max-width: 20%; /* Ensure the logo image doesn't exceed its container width */
+    height: auto;
+    /* margin: 2%; */
+    /* border: 2px solid greenyellow; */
+    /* background-color: rgb(0, 0, 0); */
+  }
+
+@media (max-width: 768px) {
+  /* Add specific styles for screens with a width of 768px or less */
+ 
+}
+
+/* Add more @media queries for other screen sizes as needed */

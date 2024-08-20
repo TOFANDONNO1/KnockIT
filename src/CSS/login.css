@@ -1,0 +1,139 @@
+/* Base Styles */
+.loginmain {
+  max-width: 400px; /* Set a maximum width for the form */
+  margin: 2% auto; /* Center the form horizontally */
+  padding: 20px;
+  background: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.tog {
+  display: flex;
+  text-align: center;
+  margin: auto auto 20px auto;
+  width:100% ;
+  align-items: center;
+  
+  justify-content: space-between;
+}
+.tog div{
+  width: 50%;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.loginmain button {
+  width: 30%;
+  background-color: #048ED5;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.loginmain button:hover {
+background-color: #003159;
+
+}
+.loginmain p {
+  text-align: center;
+  cursor: pointer;
+  /* background-color: #000000; */
+  width:50%;
+  margin:auto auto 2% auto;
+}
+.loginmain p:hover {
+color:red; 
+}
+/* Responsive Font Sizes */
+.loginmain h1 {
+  font-size: 24px;
+}
+
+/* Toggle Buttons (Register/Login) */
+.tog .activecolor {
+  background-color: #048ED5;
+  color: white;
+  cursor:pointer;
+}
+.tog .activecolor:hover {
+  /* background-color: #3b9c1e6f; */
+  border-radius:50px;
+  transition: all 0.3s ease 0s;
+padding:0.1%;
+}
+.Toastify__toast-container {
+  top: 16px;
+  right: 16px;
+}
+
+.Toastify__toast--info {
+  background: #007bff;
+}
+
+.Toastify__toast--warn {
+  background: #ffc107;
+}
+.password-input {
+  position: relative;
+  display: flex;
+  align-items: center;
+  /* width: 100%; */
+}
+
+.password-input input {
+  width: 100%;
+  flex: 1;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  border-radius: 5px;
+  /* margin-right: 5px; */
+}
+
+.password-input button {
+  background-color: transparent;
+  border: none;
+  width: 0.5%;
+  
+  cursor: pointer;
+  font-size: 1.2em;
+  /* border: 1px solid #ccc; */
+
+ margin-left: -6%;
+   /* Adjust as needed for spacing */ 
+}
+.password-input button:hover {
+background-color: white;
+}
+/* Media Queries for Responsive Design */
+.eye_button{
+ /* background-color: red; */
+ margin-left: -10% ;
+margin-right: 5%;
+cursor: pointer;
+}
+@media (max-width: 768px) {
+  .loginmain {
+    max-width: 90%; /* Adjust the form width for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .loginmain {
+    padding: 10px; /* Decrease padding for smaller screens */
+  }
+
+.loginmain  h1 {
+    font-size: 20px; /* Decrease the font size for smaller screens */
+  }
+}

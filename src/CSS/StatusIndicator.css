@@ -1,0 +1,53 @@
+.status-bar {
+  margin-top: 1%;
+    display: flex;
+    flex-direction: column; /* Display vertically */
+    /* border: 2px solid #ccc; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 4px;
+    height: 100%; /* Set the height for the full vertical bar */
+    position: relative;
+    max-width: 150px; /* Set a maximum width for the vertical bar */
+  }
+  
+  .progress {
+    background-color: #4caf50;
+    width: 100%;
+    order: 1; /* Place the progress bar at the top */
+  }
+  
+  .status {
+    text-align: center;
+    font-weight: bold;
+    padding: 4px;
+    flex: 1; /* Expand to fill available space */
+  }
+  
+  .completed {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .current {
+    background-color: #2196f3;
+    color: #fff;
+  }
+  
+  .canceled {
+    background-color: #ff1606;
+    color: white;
+  }
+  .singleOrdepage_date{
+    /* border: 1px solid rosybrown; */
+    display: grid;
+    margin-top: 1%;
+  }
+  /* .singleOrdepage_date h3{
+    border: 2px solid gainsboro;
+  } */
+  @media (max-width: 576px) {
+    
+  .mainstatusbar h3{
+    font-size: 10px;
+  }
+  }

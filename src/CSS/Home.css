@@ -1,0 +1,131 @@
+.main_sub_store>div{
+    display: flex;
+}
+.main_sub_store>div>div{
+    width: 49.8%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.honee{
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    /* width: 50%; */
+    margin: auto;
+    margin-top:2%;
+    border-radius: 10px;
+    /* height: 350px; */
+   
+/* color: #537E2C; */
+    /* border: 1px solid #537E2C; */
+
+
+}
+.hone{
+    position: relative;
+}
+/* .honee:hover{
+    border: 1px solid #537E2C;
+} */
+.honee>h1{
+    margin: 1%; 
+ text-decoration: solid;
+ /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    /* text-align: left; */
+    /* padding-top: 000.1%; */
+
+}
+
+.htwo {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    /* height: 290px; */
+}
+.htwo>div:hover{
+    cursor: pointer;
+  /* transform: scale(1); */
+  /* border: 2px solid #537E2C;; */
+  
+}
+
+.htwo>div{
+    margin: 0.5%;
+    align-items: center;
+    /* padding: 2%; */
+    /* border: 0.01px dotted rgb(165, 169, 155); ; */
+    /* background-color: #537E2C; */
+
+    border-radius: 200px;
+}
+.htwo img{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    border-radius: 50%;
+    /* width: 130px;
+    height: 130px; */
+   width: 50%;
+   height: 80%;
+
+}
+.store_details_home{
+    /* height: 100px; */
+    width: 49.8%;
+    margin:0 auto;
+    /* border-left: 1px solid #048ED5; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+ 
+}
+.honee h2{
+    font-size: large;
+    border-bottom: 5px solid #048ED5;
+    width: 50%;
+    margin:2% auto;
+    color:#048ED5;
+    
+   }
+.htwo h4{
+    font-size: small;
+    color: #048ED5;
+ }
+
+@media (max-width: 1080px) {
+
+  
+    .htwo img{
+        width: 200px;
+        height: 200px;
+    }
+    
+    
+}
+    @media (max-width: 998px) {
+       
+        .htwo img{
+            width: 150px;
+            height: 150px;
+        }
+        
+    }
+    @media (max-width: 798px) {
+        
+        
+    }
+    @media (max-width: 520px) {
+        .main_sub_store>div{
+            display: grid;
+        }
+        .main_sub_store>div>div{
+            width: 100%;
+        }
+       .honee h2{
+        /* font-size: small; */
+       }
+        .htwo img{
+            /* width: 80px;
+            height: 80px; */
+            max-width: 80px;
+            max-height: 80px;
+        }
+         .htwo h4{
+            /* font-size: 15px; */
+         }
+    } 
+    

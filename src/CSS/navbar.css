@@ -1,0 +1,22 @@
+.navbar_main{
+  display: flex;
+  width: 90%;
+  margin: auto;
+ 
+  align-items: center;
+  justify-content: center;
+  background-color: #048ED5;
+}
+.navbar_main .nav_link{
+  margin: auto;
+  color: white;
+  padding: 0.5%;
+  
+}
+.navbar_main .nav_link:hover{
+  background-color: white;
+  color: #048ED5;
+  border: 0.1px solid #048ED5;
+
+}
+

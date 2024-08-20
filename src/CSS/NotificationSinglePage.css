@@ -1,0 +1,33 @@
+.NotificationSinglePagemaindiv{
+overflow: scroll;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+justify-content: space-between;
+/* width: 50%; */
+margin: auto;
+text-align: left;
+margin: 0.8% auto;
+padding: 2%;
+border-radius: 20px;
+width: 90%;
+color:#048ED5 ;
+border: 0.1px dotted #048ED5;
+cursor: pointer;
+/* background-color: rgba(238, 230, 230, 0.315); */
+}
+
+.NotificationSinglePagemaindiv:hover{
+    background-color: #048ED5;
+    border: 1px solid #048ED5;
+
+}
+.react-icon-notification{
+    height: 100%;
+    width: 25%;
+    margin:5% 20% 25% ;
+}
+@media (max-width: 576px) {
+.NotificationSinglePagemaindiv h3{
+font-size: 10px;
+}
+}
