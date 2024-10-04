@@ -1,7 +1,7 @@
 # netlify.toml
 
 [build]
-  command = "GENERATE_SOURCEMAP=false npm run build"
+  command = "npm run build"
   functions = "netlify/functions"
   publish = "build"
 
